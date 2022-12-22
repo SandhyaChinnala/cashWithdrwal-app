@@ -1,0 +1,113 @@
+/* Write your CSS here */
+body {
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.cash-withdrawal-container {
+  background-color: #150b3e;
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 800px;
+  width: 25%;
+  height: 500px;
+}
+
+@media screen and (min-width: 768px) {
+  .cashwithdrawal-container {
+    width: 400px;
+  }
+}
+
+.name-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 12px;
+}
+
+.sarah {
+  border-radius: 100px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  font-family: 'Roboto';
+  padding: 20px;
+  width: 60px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 300;
+  align-self: center;
+}
+
+.balance-container {
+  display: flex;
+  margin-left: 12px;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.bal {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.bal-count {
+  display: flex;
+  flex-direction: column;
+}
+
+.bal-amnt {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.rupee {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 12px;
+}
+
+.desc {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 12px;
+}
+.list-container {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-left: 12px;
+  justify-content: space-between;
+}
